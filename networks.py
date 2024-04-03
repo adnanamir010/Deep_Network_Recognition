@@ -4,10 +4,7 @@ import cv2
 import numpy as np
 
 class MyNetwork(nn.Module):
-    """
-    Creates a LenNet based architecture to
-    classify digits in Mnist dataset.
-    """
+
     def __init__(self):
         super().__init__()
         self.block_1 = nn.Sequential(
